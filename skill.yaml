@@ -1,0 +1,34 @@
+skill:
+  id: ai-copywriter
+  name: AI Copywriter
+  version: "1.0.0"
+  
+description: |
+  爆款文案生成器，支持多平台风格。
+  
+  功能：
+  - 爆款标题生成
+  - 小红书文案
+  - 抖音脚本
+  - 热门标签推荐
+  
+  Nexa Claw - https://nexaclaw.cn/
+
+trigger_phrases:
+  - 生成标题
+  - 写文案
+  - 小红书文案
+  - 爆款标题
+
+examples:
+  - user: "帮我生成5个关于AI的爆款标题"
+    action: "execute"
+    command: "python copywriter.py AI --count 5"
+    
+  - user: "写一个小红书种草文案"
+    action: "execute"
+    command: "python copywriter.py 护肤品 --style 小红书"
+
+metadata:
+  author: Nexa Claw
+  website: https://nexaclaw.cn/
